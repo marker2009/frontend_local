@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../src/fonts/Gilroy-Regular.woff') format('woff'),
+}
+@font-face {
+  font-family: 'GilroySemi';
+  src: url('../src/fonts/Gilroy-SemiBold.woff') format('woff'),
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #090909;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hit{
+  border-radius: 5px;
+border: 1px solid rgba(255, 255, 255, 0.51);
+background: rgba(255, 255, 255, 0.07); 
+}
+
+.main {
+  background-image: url('./assets/Main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second{
+  background-image:url('./assets/Second.png');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.third{
+  background-image:url('./assets/third.png');
+    background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+}
+
+.last{
+  background-image:url('./assets/Second.png');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button{
+  border-radius: 5px;
+border: 0.5px solid rgba(255, 255, 255, 0.22);
+background:  rgba(255, 255, 255, 0.18);
+
+/* ДЛЯ КНОПКИ */
+backdrop-filter: blur(14.5px);
+}
+
+.block{
+  border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.11);
+background: rgba(82, 194, 52, 0.14);
+box-shadow: 0px 4px 70px 0px rgba(82, 194, 52, 0.09);
+}
+
+.blockInf{
+  border-radius: 5px;
+border: 1px solid rgba(255, 255, 255, 0.07);
+background: rgba(255, 255, 255, 0.08);
+backdrop-filter: blur(17.5px);
+}
+
+.plash{
+  border-radius: 5px;
+border: 1px solid rgba(82, 194, 52, 0.43);
+background: rgba(255, 255, 255, 0.07);
+
+/* ДЛЯ МАЛЕНЬКОЙ ПЛАШКИ */
+backdrop-filter: blur(17.5px);
+}
+
+.persons{
+background: linear-gradient(180deg, rgba(82, 194, 52, 0.00) -22.18%, rgba(82, 194, 52, 0.30) 121.94%);
+}
+
+.fight{
+  border-radius: 10px;
+border: 1px solid  rgba(82, 194, 52, 0.08);
+background: linear-gradient(180deg, rgba(82, 194, 52, 0.00) -22.18%, rgba(82, 194, 52, 0.30) 121.94%);
+
+/* для плашки */
+box-shadow: 0px 4px 70px 0px rgba(82, 194, 52, 0.09);
+}
+
+.partners{
+  border-radius: 10px;
+border: 1px solid var(--, rgba(255, 255, 255, 0.08));
+background: rgba(255, 255, 255, 0.11);
+box-shadow: 0px 4px 70px 0px rgba(82, 194, 52, 0.21);
+}
